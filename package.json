@@ -1,0 +1,27 @@
+{
+  "name": "react-to-pdf-docs",
+  "version": "1.0.0",
+  "description": "turn React page into well formatted pdf document",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiahao7791/react-to-pdf-docs.git"
+  },
+  "keywords": [
+    "react",
+    "pdf"
+  ],
+  "author": "Jiahao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiahao7791/react-to-pdf-docs/issues"
+  },
+  "homepage": "https://github.com/jiahao7791/react-to-pdf-docs#readme",
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1"
+  }
+}
