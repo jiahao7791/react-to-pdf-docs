@@ -13,9 +13,8 @@ Accepted Arguments:
 - printIds: array of element Ids to be printed eg. ["ele1", "ele2", "ele3"]
 
 
-import {printDocument} from "react-to-pdf-docs"
-
 ```
+import {printDocument} from "react-to-pdf-docs"
 <div>
     <div id="ele1">
         <span>random text</span>
