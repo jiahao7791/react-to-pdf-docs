@@ -5,6 +5,7 @@ Turn React page into well-formatted pdf document
 - A4 sized, multi pages
 - Page number included 
 - Well formatted, long text will be wrapped to next page, not cut off
+- Built on jspdf and html2canvas
 
 # How to use
 Accepted Arguments:
@@ -14,6 +15,7 @@ Accepted Arguments:
 
 import {printDocument} from "react-to-pdf-docs"
 
+```
 <div>
     <div id="ele1">
         <span>random text</span>
@@ -25,3 +27,4 @@ import {printDocument} from "react-to-pdf-docs"
         ()=>{ printDocument(filename="testDocument", printIds=["ele1","ele2"]) }
     }>
 </div>
+```
