@@ -8,10 +8,9 @@ Turn React page into well-formatted pdf document
 
 # How to use
 Accepted Arguments:
-/*
-    - filename: the name of the downloaded pdf file eg. "testDocument"
-    - printIds: array of element Ids to be printed eg. ["ele1", "ele2", "ele3"]
-*/
+- filename: the name of the downloaded pdf file eg. "testDocument"
+- printIds: array of element Ids to be printed eg. ["ele1", "ele2", "ele3"]
+
 
 import {printDocument} from "react-to-pdf-docs"
 
@@ -22,5 +21,7 @@ import {printDocument} from "react-to-pdf-docs"
     <div id="ele2">
         <span>random text</span>
     </div>
-    <Button onClick = {()=>{ printDocument(filename="testDocument", printIds=["ele1","ele2"]) }}>
+    <Button onClick = {
+        ()=>{ printDocument(filename="testDocument", printIds=["ele1","ele2"]) }
+    }>
 </div>
